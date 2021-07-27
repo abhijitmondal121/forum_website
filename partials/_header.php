@@ -25,13 +25,13 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']=true){
       echo '<form class="d-flex" method="get" action="search.php">
       <input class="form-control me-2 mx-3" name="search" type="search" placeholder="Search"  aria-label="Search">
-      <button class="btn btn-outline-success me-2" type="submit">Search</button>
+      <button class="btn btn-outline-light me-2" type="submit">Search</button>
       
     </form>
     <p class="text-light my-0 mx-1">  welcome_'.$_SESSION['useremail'].'</p>
     <div class="mx-2">
     
-    <a href="partials/_logout.php" class="btn btn-outline-success "  data-bs-target="#logoutmodal">Logout</a>
+    <a href="partials/_logout.php" class="btn btn-outline-light "  data-bs-target="#logoutmodal">Logout</a>
   
     </div>
     ';
@@ -40,12 +40,12 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     else{
       echo '    <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success me-2" type="submit">Search</button>
+      <button class="btn btn-outline-light me-2" type="submit">Search</button>
       </form>
       <div class="mx-0">
       
-      <button class="btn btn-outline-success mx-0 " data-bs-toggle="modal" data-bs-target="#loginmodal">Login</button>
-      <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#signupmodal">Signup</button>
+      <button class="btn btn-outline-light mx-0 " data-bs-toggle="modal" data-bs-target="#loginmodal">Login</button>
+      <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#signupmodal">Signup</button>
       
       </div>
        ';

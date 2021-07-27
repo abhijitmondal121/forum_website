@@ -8,9 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <style>
-    #ques{
+    /* #ques{
       min-height:800px;
-    }
+    } */
     </style>
     <title>iforum-for discussion!</title>
   </head>
@@ -47,7 +47,8 @@
 
   <div class="container my-3 " id="ques">
   <h2 class="text-center">Welcome to iforum-catagory</h2>
-  <div class="row my-3">
+  <center>
+  <div class="row my-3 mx-4">
   <?php
     $sql="SELECT * FROM `catagories`";
     $result= mysqli_query($conn,$sql);
@@ -57,9 +58,9 @@
       $id=$row['catagories_id'];
       $cat=$row['catagories_name'];
       $desc=$row['catagories_description'];
-      echo '  <div class="col-md-4 my-3">
-      <div class="card" style="width: 18rem;">
-      <img src="https://source.unsplash.com/500x400/?'. $cat.',coding" class="card-img-top" alt="...">
+      echo '  <div class="col-md-4 my-3 ">
+      <div class="card" style="width: 18rem;border-radius:20px;">
+      <img src="https://source.unsplash.com/500x400/?'. $cat.',coding" class="card-img-top" style="border-radius:20px;"alt="...">
       <div class="card-body ">
         <h5 class="card-title"><a href="threadlist.php?catid='.$id.'">'. $cat.'</a></h5>
         <p class="card-text">'.substr($desc,0,50).'.......</p>
@@ -79,7 +80,7 @@
   
 
 
-  </div>
+  </div></center>
   </div>
   <?php include 'partials/_footer.php'; ?>
 
