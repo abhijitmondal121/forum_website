@@ -16,7 +16,6 @@
     .container{
       min-height:500px;
     }
-
     @media screen and (min-device-width: 294px) and (max-device-width: 500px){
       .container{
       min-height:350px;
