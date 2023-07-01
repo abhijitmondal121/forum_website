@@ -206,7 +206,6 @@ if($noresult){
   
 
   
-
  
 
     <!-- Optional JavaScript; choose one of the two! -->
