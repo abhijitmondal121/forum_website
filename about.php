@@ -18,6 +18,7 @@
       font-family: Times New Roman;
     }
 
+    
   @media screen and (min-device-width: 294px) and (max-device-width: 500px){
 
     #carouselExampleIndicators{

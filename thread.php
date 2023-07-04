@@ -204,7 +204,6 @@ if($noresult){
 </div>
 <?php include 'partials/_footer.php'; ?>
   
- 
 
     <!-- Optional JavaScript; choose one of the two! -->
 

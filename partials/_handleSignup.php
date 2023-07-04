@@ -33,7 +33,6 @@
     //echo 'unable to signup';
     header("Location: /forum/index.php?signupsuccess=false&error=$showError");
 
-}
-        
+}      
 
 ?>

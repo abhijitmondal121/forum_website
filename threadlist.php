@@ -61,7 +61,6 @@
     #ques{
       min-height:150px;
     }
-
     }
 
     </style>

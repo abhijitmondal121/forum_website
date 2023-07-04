@@ -23,8 +23,7 @@
       
      }
      header("Location: /forum/index.php");
-           
-        
+                
 }
         
  ?>    
