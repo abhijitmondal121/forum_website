@@ -6,8 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    #p{
+      font-size:25px; 
+      font-family: Times New Roman;
+    }
 
+  @media screen and (min-device-width: 294px) and (max-device-width: 500px){
+
+    #carouselExampleIndicators{
+      height:200px;
+    }
+    #i{
+      height:200px;
+    }
+    #h{
+      margin-top:20px;
+      margin-bottom:20px;
+
+      font-size:24px;
+      font-weight:bold;
+    }
+    #p{
+      font-size:16px;
+    } 
+    
+  }  
+  </style>  
     <title>iforum-for discussion!</title>
   </head>
   <body>
@@ -21,13 +52,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://source.unsplash.com/2400x700/?coading,program" class="d-block w-100" alt="...">
+      <img src="https://source.unsplash.com/2400x700/?coading,program" id="i" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://source.unsplash.com/2400x700/?apple,coading" class="d-block w-100" alt="...">
+      <img src="https://source.unsplash.com/2400x700/?apple,coading" id="i" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://source.unsplash.com/2400x700/?code,microsoft" class="d-block w-100" alt="...">
+      <img src="https://source.unsplash.com/2400x700/?code,microsoft" id="i" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
@@ -43,9 +74,9 @@
   
 
   <div class="container ">
-  <h2 class="text-center my-4">Welcome to iforum-About</h2>
+  <h2 class="text-center my-4" id="h">Welcome to iforum-About</h2>
  
-<p class="v my-3" style="font-size:25px; font-family: Times New Roman;">This is a peer to peer forum. No Spam / Advertising / Self-promote in the forums is not allowed. Do not post copyright-infringing material. Do not post “offensive” posts, links or images. Do not cross post questions. Remain respectful of other members at all times.</p>
+<p class="v my-3" id="p" >This is a peer to peer forum. No Spam / Advertising / Self-promote in the forums is not allowed. Do not post copyright-infringing material. Do not post “offensive” posts, links or images. Do not cross post questions. Remain respectful of other members at all times.</p>
 
  
   </div>
