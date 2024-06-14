@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2023 at 10:15 AM
+-- Generation Time: Jun 14, 2024 at 06:52 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -39,11 +39,11 @@ CREATE TABLE `catagories` (
 --
 
 INSERT INTO `catagories` (`catagories_id`, `catagories_name`, `catagories_description`, `created`) VALUES
-(1, 'Python', 'Python is an interpreted high-level general-purpose programming language. Python\'s design philosophy emphasizes code readability with its notable use of significant indentation', '2021-05-09 00:09:57'),
-(2, 'Java', 'Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible', '2021-05-09 00:13:10'),
-(3, 'C++', 'C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or \"C with Classes\".', '2021-05-09 00:14:01'),
-(4, 'JavaScript', 'JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-or', '2021-05-09 00:14:48'),
-(5, 'C ', 'C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions', '2021-05-09 00:15:49');
+(1, 'Python', 'Python is an interpreted high-level general-purpose programming language. Python\'s design philosophy emphasizes code readability with its notable use of significant indentation', '2023-05-09 00:09:57'),
+(2, 'Java', 'Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible', '2023-05-09 00:13:10'),
+(3, 'C++', 'C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or \"C with Classes\".', '2023-05-09 00:14:01'),
+(4, 'JavaScript', 'JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-or', '2023-05-09 00:14:48'),
+(5, 'C ', 'C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions', '2023-05-09 00:15:49');
 
 --
 -- Indexes for dumped tables

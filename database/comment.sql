@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2023 at 10:15 AM
+-- Generation Time: Jun 14, 2024 at 06:52 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -40,8 +40,7 @@ CREATE TABLE `comment` (
 --
 
 INSERT INTO `comment` (`comment_id`, `comment_content`, `thread_id`, `comment_by`, `comment_time`) VALUES
-(1, 'plz check', 2, 0, '0000-00-00 00:00:00'),
-(2, 'go to youtube', 3, 3, '2021-05-09 01:54:18'),
+(2, 'go to youtube', 3, 3, '2023-05-09 01:54:18'),
 (3, 'start program', 5, 6, '2023-06-25 10:50:21'),
 (4, 'plz mention your problem', 6, 7, '2023-07-02 11:01:00'),
 (5, 'plz run a simple hello world program for better understanding', 5, 7, '2023-07-02 11:11:43'),

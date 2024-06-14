@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2023 at 10:16 AM
+-- Generation Time: Jun 14, 2024 at 06:52 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -41,8 +41,8 @@ CREATE TABLE `threads` (
 --
 
 INSERT INTO `threads` (`thread_id`, `thread_title`, `thread_desc`, `thread_cat_id`, `thread_user_id`, `timestamp`) VALUES
-(2, 'do program', 'unable to understand', 1, 3, '2021-05-09 01:40:38'),
-(3, 'unable to install ', 'unable to install java', 2, 4, '2021-05-09 01:53:40'),
+(2, 'do program', 'unable to understand', 1, 3, '2023-05-09 01:40:38'),
+(3, 'unable to install ', 'unable to install java', 2, 4, '2023-05-09 01:53:40'),
 (5, 'unable to install cpp', 'I can not understand how to install dev cpp.', 3, 5, '2023-06-24 09:34:44'),
 (6, 'run time error', 'hello plz help me', 1, 6, '2023-06-25 11:11:25'),
 (7, 'compile time error', 'hey when i use to run the program its show compile time error', 1, 7, '2023-07-02 11:13:18'),
